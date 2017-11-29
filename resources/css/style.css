@@ -16,20 +16,17 @@ header {
   align-items: center;
   position: fixed;
   z-index: 1;
-
 }
 
-nav{
+nav {
   display: flex;
   margin-right: 10px;
   width: 500px;
-
 }
 
-nav span{
+nav span {
   padding: 20px 10px;
   text-decoration: underline;
-
 }
 
 .logo img {
@@ -39,11 +36,11 @@ nav span{
   align-items: center;
 }
 
-.logo{
+.logo {
   width: 100%;
 }
 
-.top-section{
+.top-section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,7 +60,7 @@ nav span{
   width: 1200px;
 }
 
-.mid-section{
+.mid-section {
   width:1000px;
   margin: auto;
   padding-top: 60px;
@@ -74,7 +71,6 @@ nav span{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 
 .item img {
@@ -82,12 +78,12 @@ nav span{
   width: 300px;
   display: block;
   margin: 10px;
-
 }
 
 .item span {
   display: block;
 }
+
 .items {
   display: inline-flex;
   flex-wrap: wrap;
@@ -107,8 +103,8 @@ nav span{
   width: 1200px;
   display: flex;
   align-items: center;
-
 }
+
 .location {
   display: inline-flex;
   background-color: black;
@@ -124,6 +120,10 @@ nav span{
 
 .locations {
   width: 1200px;
+}
+
+.locations h2 {
+  margin-bottom: 0;
 }
 
 .contact {
