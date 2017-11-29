@@ -62,3 +62,74 @@ nav span{
   background-color: black;
   width: 1200px;
 }
+
+.mid-section{
+  width:1000px;
+  margin: auto;
+  padding-top: 60px;
+  height: 700px
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  display: block;
+  margin: 10px;
+
+}
+
+.item span {
+  display: block;
+}
+.items {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px;
+}
+
+.lower-section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.lower-image {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+
+}
+.location {
+  display: inline-flex;
+  background-color: black;
+  width: 300px;
+  margin: 15px 20px;
+  flex-direction: column;
+}
+
+.location span {
+  margin: 15px;
+  opacity: 1;
+}
+
+.locations {
+  width: 1200px;
+}
+
+.contact {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+}
